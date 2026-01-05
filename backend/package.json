@@ -1,0 +1,33 @@
+{
+  "name": "md_gym_product",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "mongoose": "^8.20.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A new Flutter project.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ragavi-Navaneethan/md_gym.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ragavi-Navaneethan/md_gym/issues"
+  },
+  "homepage": "https://github.com/Ragavi-Navaneethan/md_gym#readme"
+}

@@ -1,0 +1,51 @@
+### Signup page
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+  "email": "ragavi@gmail.com",
+  "username": "Ragavi",
+  "phoneNumber": "9876543210",
+  "password": "gym123",
+  "confirmPassword": "gym123"
+}
+
+
+
+###login page
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "ragavi@gmail.com",
+  "password": "gym123"
+}
+
+
+
+### get all users
+GET http://localhost:3000/users
+
+
+
+
+### Workout page
+GET http://localhost:3000/workouts
+
+
+### Workout page
+POST http://localhost:3000/workouts
+Content-Type: application/json
+
+{
+  "workoutName": "Planks",
+  "sets": [
+    { "reps": 15 },
+    { "reps": 12 },
+    { "reps": 10 }
+  ]
+}
+
+
+
+
